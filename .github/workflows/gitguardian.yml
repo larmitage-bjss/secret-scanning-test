@@ -1,4 +1,4 @@
-name: Testing code scanning with GitGuardian
+name: Latest commit code scanning with GitGuardian
 
 on:
   push:
