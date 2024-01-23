@@ -3,6 +3,8 @@ var password2 = "CrvR9#61heT~152?";
 
 var fakeAwsSecret = "DcCc9H6oCkGUSp3Rhmsx8NIfVG8kO2T/3jORxuZY";
 
+var azure_sql_password = "DcCc9H6oCkGUSp3Rhmsx8NIfVG8kO2T/3jORxuZY";
+
 var fakeApiKey = "apikey1234abcdefghij0123456789";
 
 var rsaPrivateKey = "-----BEGIN RSA PRIVATE KEY-----"
