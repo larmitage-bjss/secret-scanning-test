@@ -13,3 +13,5 @@ var rsaPrivateKey = "-----BEGIN RSA PRIVATE KEY-----"
 + "v/Ow5T0q5gIJAiEAyS4RaI9YG8EWx/2w0T67ZUVAw8eOMB6BIUg0Xcu+3okCIBOs"
 + "/5OiPgoTdSy7bcF9IGpSE8ZgGKzgYQVZeN97YE00"
 + "-----END RSA PRIVATE KEY-----";
+
+var dummyDbConnStr = "Driver=postgresql;Server=192.168.0.1;Database=my-database;Uid=myusername;Pwd=thisisasillyinsecurepassword;";
