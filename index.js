@@ -18,3 +18,4 @@ var rsaPrivateKey = "-----BEGIN RSA PRIVATE KEY-----"
 + "-----END RSA PRIVATE KEY-----";
 
 var dummyDbConnStr = "Driver=postgresql;Server=192.168.0.1;Database=my-database;Uid=myusername;Pwd=thisisasillyinsecurepassword;";
+
