@@ -8,6 +8,10 @@
   * pass on subsequent commit
   * passes on change to file containing secret
   * fails on removal of secret
+  * passes on subsequent commit
+* on branch:
+  * fails on adding secrets
+  * fails on subsequent commit
 
 ## Trufflehog
 
@@ -17,3 +21,4 @@
   * pass on subsequent commit
   * passes on change to file containing secret
   * passes on removal of secret
+  * passes on subsequent commit
