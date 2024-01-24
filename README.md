@@ -12,6 +12,7 @@
 * on branch:
   * fails on adding secrets
   * fails on subsequent commits including unrelated readme changes
+  * fails on removal of secrets
 
 ## Trufflehog
 
