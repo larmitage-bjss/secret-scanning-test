@@ -1,0 +1,1 @@
+# Repository for testing out and demonstrating secret scanning tools
