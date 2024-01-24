@@ -1,3 +1,0 @@
-Driver=postgresql;Server=192.168.0.1;Database=my-database;Uid=myusername;Pwd=thisisasillyinsecurepassword;
-Driver=postgresql;Server=192.168.0.1;Database=my-database;Uid=myusername;Pwd=thisisasillyinsecurepassword;
-
