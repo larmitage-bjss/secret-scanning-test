@@ -13,6 +13,7 @@
   * fails on adding secrets
   * fails on subsequent commits including unrelated readme changes
   * fails on removal of secrets
+  * fails on another unrelated commit
 
 ## Trufflehog
 
@@ -25,3 +26,5 @@
   * passes on subsequent commit
 * on PR
   * did not fail on open of PR with secrets added (RSA private key)
+  * or amended
+  * or removed
