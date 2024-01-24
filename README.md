@@ -8,6 +8,12 @@
   * pass on subsequent commit
   * passes on change to file containing secret
   * fails on removal of secret
+  * passes on subsequent commit
+* on branch:
+  * fails on adding secrets
+  * fails on subsequent commits including unrelated readme changes
+  * fails on removal of secrets
+  * fails on another unrelated commit
 
 ## Trufflehog
 
@@ -17,3 +23,8 @@
   * pass on subsequent commit
   * passes on change to file containing secret
   * passes on removal of secret
+  * passes on subsequent commit
+* on PR
+  * did not fail on open of PR with secrets added (RSA private key)
+  * or amended
+  * or removed
