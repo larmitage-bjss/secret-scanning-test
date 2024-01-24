@@ -1,4 +1,4 @@
-name: Latest commit code scanning with GitGuardian
+name: Latest commit code scanning with Trivy
 
 on:
   push:
@@ -10,7 +10,7 @@ on:
 
 jobs:
   scanning:
-    name: GitGuardian scan
+    name: Trivy scan
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
